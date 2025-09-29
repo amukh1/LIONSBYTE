@@ -5,11 +5,22 @@ import './App.css'
 import Home from './Home.jsx'
 import Nav from './Nav.jsx'
 
+import Topology from './Topology'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <Topology
+        options={{
+          backgroundColor: 0x05040b,
+          color: 0xBCECAC,
+          scale: 1.0,
+          scaleMobile: 0.6,
+          // any other effect-specific options
+        }}
+      />
       <Nav/>
       <Home />
     </>

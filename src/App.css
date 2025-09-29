@@ -1,10 +1,11 @@
 #root {
   /* max-width: 1280px; */
   margin: 0;
-  padding:0px;
-  width:100%;
+  padding: 0px;
+  width: 100%;
   /* padding: 2rem; */
   text-align: center;
+  background-color: rgb(3 0 18);
 }
 
 .logo {
@@ -13,9 +14,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -24,6 +27,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -44,27 +48,80 @@
 }
 
 .home {
-  width:100%;
+  width: 100%;
   text-align: left;
   margin: 0px;
-  padding: 0px;
-  background: radial-gradient(circle at center, #90ee90, black);
-  height:90vh;
+  padding-top: 2em;
+  position: absolute;
+  z-index: 15;
+  /* background: radial-gradient(circle at center, #90ee90, black); */
+  /* height:93vh; */
 }
 
-.nav {
+.nav_old {
   /* position: absolute;
   top:0px;
   left:0px; */
   text-align: center;
-  width:100%;
-  background-color: black;
+  /* width: 100%; */
+  background-color: var(--bg);
   margin: 0px;
-  padding: 0px;
-  height: 10vh;
+  /* padding-left: 5%;
+  padding-right:5%; */
+  /* height: 12vh; */
+  padding:15px;
   font-size: 2em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+
+.nav {
   display:flex;
+  flex-direction: row;
+  /* background-color: black; */
   justify-content: center;
   align-items: center;
-  font-weight:bold;
+  padding:15px;
+
+  /* position: absolute; */
+  position: relative;
+  /* width:100%;
+  overflow:hidden; */
+  /* top:0px; */
+  z-index: 100;
+}
+
+.inside {
+  width:50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+
+.buttons {
+  width: 25%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact {
+  background-color: white;
+  color: black;
+  padding:5px;
+  border-radius: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.logo_ {
+  font-size: 2rem;
+  color: var(--lg);
 }

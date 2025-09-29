@@ -1,11 +1,22 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import './App.css'
 import './Home.css'
 
+// import TOPOLOGY from 'vanta/dist/vanta.topology.min'
+// import NET from "vanta/dist/vanta.net.min"; // the NET effect
+// import * as THREE from "three";             // vanta expects three
+
+
+
 export default function Home() {
+    // useEffect(() => {
+    //     const instance = window.VANTA?.NET({ el: ref.current, color: 0x7f61ff });
+    //     return () => instance?.destroy();
+    // }, []);
     return (
-        <div className="home">
+        <div className="home" id='home'>
             <div className="LIONSBYTE">LIONSBYTE</div>
+      
         </div>
     )
 }
