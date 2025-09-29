@@ -14,7 +14,7 @@ function App() {
     <>
       <Topology
         options={{
-          backgroundColor: 0x05040b,
+          backgroundColor: 0x000000,
           color: 0xBCECAC,
           scale: 1.0,
           scaleMobile: 0.6,
