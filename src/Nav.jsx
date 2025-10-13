@@ -7,8 +7,8 @@ export default function Nav() {
             <div className="inside">
             <div className="logo_">LIONSBYTE</div>
             <div className="buttons">
-                <div className="link">link1</div>
-                <div className="link">link2</div>
+                <div className="link">School</div>
+                <div className="link">Sonsors</div>
                 <div className="contact">
                     <div className="link">contact</div>
                 </div>

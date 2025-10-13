@@ -16,7 +16,25 @@ export default function Home() {
     return (
         <div className="home" id='home'>
             <div className="LIONSBYTE">LIONSBYTE</div>
-      
+            <div className="middle">
+                <div className="box">
+                    <div className="box-title">Title</div>
+                    <hr />
+                    <p className="box-content">LionsByte is Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia quasi, ea reprehenderit molestias hic.</p>
+                </div>
+
+                <div className="box">
+                    <div className="box-title">Title</div>
+                    <hr />
+                    <p className="box-content">LionsByte is Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia quasi, ea reprehenderit molestias hic.</p>
+                </div>
+
+                <div className="box">
+                    <div className="box-title">Title</div>
+                    <hr />
+                    <p className="box-content">LionsByte is Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia quasi, ea reprehenderit molestias hic.</p>
+                </div>
+            </div>
         </div>
     )
 }

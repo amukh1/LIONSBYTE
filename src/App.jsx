@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Topology
+      {/* <Topology
         options={{
           backgroundColor: 0x000000,
           color: 0xBCECAC,
@@ -20,7 +20,7 @@ function App() {
           scaleMobile: 0.6,
           // any other effect-specific options
         }}
-      />
+      /> */}
       <Nav/>
       <Home />
     </>
