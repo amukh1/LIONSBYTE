@@ -2,4 +2,17 @@
     font-size: 5em;
     text-align: center;
     font-weight: bold;
+    
+    position: absolute;
+}
+
+.teeth {
+    width: 20%;
+    filter: invert(100%);
+}
+
+.claw {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }

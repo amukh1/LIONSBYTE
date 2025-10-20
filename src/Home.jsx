@@ -6,7 +6,7 @@ import './Home.css'
 // import NET from "vanta/dist/vanta.net.min"; // the NET effect
 // import * as THREE from "three";             // vanta expects three
 
-
+import teeth from "./assets/teeth.svg"
 
 export default function Home() {
     // useEffect(() => {
@@ -15,7 +15,10 @@ export default function Home() {
     // }, []);
     return (
         <div className="home" id='home'>
-            <div className="LIONSBYTE">LIONSBYTE</div>
+            <div className="claw">
+                <img src={teeth} alt="" className="teeth"/>
+                <div className="LIONSBYTE">LIONSBYTE</div>
+            </div>
             <div className="middle">
                 <div className="box">
                     <div className="box-title">Title</div>
