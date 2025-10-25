@@ -61,6 +61,8 @@ background: radial-gradient(
     var(--lg),      /* core glow: your #BCECAC, semi-opaque */
     rgba(255, 255, 255, 0) 75%     /* soft fade to transparent */
   );
+
+  height: 100%;
 }
 
 .nav_old {

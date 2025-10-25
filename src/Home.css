@@ -2,14 +2,14 @@
     font-size: 5em;
     text-align: center;
     font-weight: bold;
-    
+    width:100%;
     position: absolute;
 }
 
-.teeth {
+/* .teeth {
     width: 20%;
     filter: invert(100%);
-}
+} */
 
 .claw {
     display:flex;

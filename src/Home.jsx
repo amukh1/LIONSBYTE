@@ -15,10 +15,10 @@ export default function Home() {
     // }, []);
     return (
         <div className="home" id='home'>
-            <div className="claw">
-                <img src={teeth} alt="" className="teeth"/>
+            {/* <div className="claw"> */}
+                {/* <img src={teeth} alt="" className="teeth"/> */}
                 <div className="LIONSBYTE">LIONSBYTE</div>
-            </div>
+            {/* </div> */}
             <div className="middle">
                 <div className="box">
                     <div className="box-title">Title</div>
