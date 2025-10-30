@@ -1,0 +1,38 @@
+.card {
+  padding: 2em;
+}
+
+.box {
+  background-color: black;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 10px;
+  border-style: solid;
+
+  font-size: 1.5em;
+
+  width: fit-content;
+  max-width: 15%;
+  padding: 25px;
+
+  transition: all 0.5s ease;
+
+  position: relative;
+  bottom:0px;
+}
+
+.box:hover {
+  bottom:10px;
+}
+
+.box-title {
+  font-size:2em;
+  text-align: center;
+}
+
+.middle {
+  padding-top:2%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

@@ -1,0 +1,48 @@
+.nav {
+  display:flex;
+  flex-direction: row;
+  /* background-color: black; */
+  justify-content: center;
+  align-items: center;
+  padding:15px;
+
+  /* position: absolute; */
+  position: sticky;
+  /* width:100%;
+  overflow:hidden; */
+  /* top:0px; */
+  z-index: 100;
+}
+
+.inside {
+  width:50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.buttons {
+  width: 30%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  background-color: white;
+  color: black;
+  padding:5px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.logo_ {
+  font-size: 2rem;
+  color: var(--lg);
+}

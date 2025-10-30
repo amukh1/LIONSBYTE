@@ -19,25 +19,7 @@ export default function Home() {
                 {/* <img src={teeth} alt="" className="teeth"/> */}
                 <div className="LIONSBYTE">LIONSBYTE</div>
             {/* </div> */}
-            <div className="middle">
-                <div className="box">
-                    <div className="box-title">Title</div>
-                    <hr />
-                    <p className="box-content">LionsByte is Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia quasi, ea reprehenderit molestias hic.</p>
-                </div>
-
-                <div className="box">
-                    <div className="box-title">Title</div>
-                    <hr />
-                    <p className="box-content">LionsByte is Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia quasi, ea reprehenderit molestias hic.</p>
-                </div>
-
-                <div className="box">
-                    <div className="box-title">Title</div>
-                    <hr />
-                    <p className="box-content">LionsByte is Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia quasi, ea reprehenderit molestias hic.</p>
-                </div>
-            </div>
+            
         </div>
     )
 }

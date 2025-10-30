@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import './Nav.css'
 
 export default function Nav() {
     return (

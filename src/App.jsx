@@ -21,8 +21,10 @@ function App() {
           // any other effect-specific options
         }}
       /> */}
-      <Nav/>
-      <Home />
+      <div className="front-page">
+          <Nav/>
+        <Home />
+      </div>
     </>
   )
 }

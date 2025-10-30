@@ -3,7 +3,7 @@
     text-align: center;
     font-weight: bold;
     width:100%;
-    position: absolute;
+    /* position: absolute; */
 }
 
 /* .teeth {
@@ -15,4 +15,23 @@
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.home {
+  width: 100%;
+  text-align: left;
+  margin: 0px;
+  padding-top: 2em;
+  position: absolute;
+  z-index: 15;
+  /* background: radial-gradient(circle at center, #90ee90, black); */
+  /* height:93vh; */
+background: radial-gradient(
+    circle at 50% 25%,              /* centered horizontally, near top */
+    var(--lg),      /* core glow: your #BCECAC, semi-opaque */
+    rgba(255, 255, 255, 0) 75%     /* soft fade to transparent */
+  );
+  flex-grow:1;
+  /* height: 100%; */
+  height:fit-content;
 }
