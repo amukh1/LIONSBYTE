@@ -2,8 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import './dividers.css'
 import Home from './Home.jsx'
 import Nav from './Nav.jsx'
+import Bottom from './BottomDiv.jsx'
+import Top from './TopDiv.jsx'
 
 import Topology from './Topology'
 
@@ -24,6 +27,8 @@ function App() {
       <div className="front-page">
           <Nav/>
         <Home />
+        <Bottom/>
+        {/* <Top/> */}
       </div>
     </>
   )

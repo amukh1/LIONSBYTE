@@ -21,6 +21,7 @@ export default function Home() {
                 <div className="LIONSBYTE">LIONSBYTE</div>
                 <img src={right} alt="" className="teeth"/>
             </div>
+            
         </div>
     )
 }
