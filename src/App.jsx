@@ -7,6 +7,7 @@ import Home from './Home.jsx'
 import Nav from './Nav.jsx'
 import Bottom from './BottomDiv.jsx'
 import Top from './TopDiv.jsx'
+import Intermediate from './Intermediate.jsx'
 
 import Topology from './Topology'
 
@@ -27,7 +28,8 @@ function App() {
       <div className="front-page">
           <Nav/>
         <Home />
-        <Bottom/>
+        <Bottom />
+        <Intermediate />
         {/* <Top/> */}
       </div>
     </>

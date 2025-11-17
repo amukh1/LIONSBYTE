@@ -22,7 +22,7 @@
   text-align: left;
   margin: 0px;
   padding-top: 2em;
-  position: absolute;
+  /* position: absolute; */
   z-index: 15;
   /* background: radial-gradient(circle at center, #90ee90, black); */
   /* height:93vh; */

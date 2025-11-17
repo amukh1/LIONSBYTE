@@ -56,3 +56,10 @@
   position: relative;
   top:3em;
 }
+
+.intermediate {
+  background-color:var(--lg);
+  height:20vh;
+  color:black;
+  font-size: 2em;
+}
