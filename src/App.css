@@ -63,3 +63,16 @@
   color:black;
   font-size: 2em;
 }
+
+.intermediate .title {
+  font-size:2.5em;
+}
+
+.sponsors {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2em;
+
+}

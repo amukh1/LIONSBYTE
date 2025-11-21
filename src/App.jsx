@@ -8,6 +8,7 @@ import Nav from './Nav.jsx'
 import Bottom from './BottomDiv.jsx'
 import Top from './TopDiv.jsx'
 import Intermediate from './Intermediate.jsx'
+import Sponsors from './Sponsors.jsx'
 
 import Topology from './Topology'
 
@@ -29,8 +30,11 @@ function App() {
           <Nav/>
         <Home />
         <Bottom />
-        <Intermediate />
-        {/* <Top/> */}
+        <Intermediate title="Intermediate" content="frog frog frog frog frog frog frog frog"/>
+        <Top />
+        <Sponsors />
+        <Bottom/>
+        <Intermediate title="Intermediate" content="frog frog frog frog frog frog frog frog"/>
       </div>
     </>
   )
