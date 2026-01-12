@@ -30,11 +30,11 @@ function App() {
           <Nav/>
         <Home />
         <Bottom />
-        <Intermediate title="Intermediate" content="frog frog frog frog frog frog frog frog"/>
+        <Intermediate title="Intermediate" content="LIONSBYTE is a 6-hour coding marathon on March 27, 2026, from 8:30 AM – 2:30 PM hosted at South Fayette High School."/>
         <Top />
         <Sponsors />
         <Bottom/>
-        <Intermediate title="Intermediate" content="frog frog frog frog frog frog frog frog"/>
+        <Intermediate title="Intermediate" content="All participants will receive free food, drinks, and event T-shirts, so come bite and code!"/>
       </div>
     </>
   )
