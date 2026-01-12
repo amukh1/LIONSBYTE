@@ -22,7 +22,7 @@ function App() {
           backgroundColor: 0x000000,
           color: 0xBCECAC,
           scale: 1.0,
-          scaleMobile: 0.6,
+          scaleMobile: 0.6, 
           // any other effect-specific options
         }}
       /> */}
@@ -30,11 +30,11 @@ function App() {
           <Nav/>
         <Home />
         <Bottom />
-        <Intermediate title="Intermediate" content="LIONSBYTE is a 6-hour coding marathon on March 27, 2026, from 8:30 AM – 2:30 PM hosted at South Fayette High School."/>
+        <Intermediate title="About the Event" content="LIONSBYTE is a 6-hour coding marathon on March 27, 2026, from 8:30 AM – 2:30 PM hosted at South Fayette High School."/>
         <Top />
         <Sponsors />
         <Bottom/>
-        <Intermediate title="Intermediate" content="All participants will receive free food, drinks, and event T-shirts, so come bite and code!"/>
+        <Intermediate title="Bait!" content="All participants will receive free food, drinks, and event T-shirts, so come bite and code!"/>
       </div>
     </>
   )

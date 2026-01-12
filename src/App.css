@@ -60,7 +60,7 @@
 
 .intermediate {
   background-color:var(--lg);
-  height:20vh;
+  /* height:20vh; */
   color:black;
   font-size: 2em;
 }
