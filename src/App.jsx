@@ -9,6 +9,7 @@ import Bottom from './BottomDiv.jsx'
 import Top from './TopDiv.jsx'
 import Intermediate from './Intermediate.jsx'
 import Sponsors from './Sponsors.jsx'
+import Experiences from './Experiences.jsx'
 
 import Topology from './Topology'
 
@@ -32,7 +33,7 @@ function App() {
         <Bottom />
         <Intermediate title="About the Event" content="LIONSBYTE is a 6-hour coding marathon on March 27, 2026, from 8:30 AM – 2:30 PM hosted at South Fayette High School."/>
         <Top />
-        <Sponsors />
+        <Experiences />
         <Bottom/>
         <Intermediate title="Bait!" content="All participants will receive free food, drinks, and event T-shirts, so come bite and code!"/>
       </div>
