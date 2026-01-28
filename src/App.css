@@ -65,8 +65,30 @@
   font-size: 2em;
 }
 
+.intermediate3 {
+  background-color:var(--lg);
+  /* height:20vh; */
+  color:black;
+  font-size: 1.5em;
+}
+
+.intermediate2 {
+  background-color:#1C1B22;
+  /* height:20vh; */
+  color:white;
+  font-size: 2em;
+}
+
 .intermediate .title {
   font-size:2.5em;
+}
+
+.intermediate2 .title {
+  font-size:2.5em;
+}
+
+.intermediate3 .title {
+  font-size:2em;
 }
 
 .sponsors {
@@ -75,7 +97,26 @@
   align-items: center;
   justify-content: space-around;
   padding: 2em;
+}
 
+.b {
+  background-color: #1C1B22;
+}
+
+.card-holder {
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom:25px;
+}
+
+.card {
+  background-color: black;
+  width: 15%;
+  height: 300px;
+  border-radius: 25px;
 }
 
 /* .LIONSBYTE {
